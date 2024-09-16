@@ -1,0 +1,5 @@
+This project implements an advanced pose and facial landmark detection system utilizing OpenCV for image processing and Mediapipe for real-time pose and facial feature extraction.
+The architecture of the system is built upon the poseDetector class, which harnesses the power of Mediapipe’s sophisticated pose estimation model.
+By processing frames in real-time, it leverages dynamic landmark mapping to detect key human body points with high accuracy, incorporating multi-stage image transformation and conversion techniques.
+The pose detection module is intricately designed to function with customizable parameters such as model complexity, landmark smoothing, and detection/tracking confidence thresholds.
+This ensures flexibility in optimizing performance for various use cases. In addition, a highly efficient pipeline processes input video frames by converting them to RGB for enhanced detection accuracy, with visual feedback provided through detailed skeletal overlays using Mediapipe’s drawing utilities.
